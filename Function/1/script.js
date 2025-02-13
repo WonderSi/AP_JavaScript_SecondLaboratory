@@ -15,5 +15,5 @@ function OneDisplayInfo() {
     let result1 = num1 - num2;
     displayDifferenceNumbers(result1, output);
 
-    output.innerHTML += `Вторая функция: ${differenceNumber(num1, num2)}`
+    output.innerHTML += `Вторая функция: ${differenceNumber(num1, num2)}`;
 }
