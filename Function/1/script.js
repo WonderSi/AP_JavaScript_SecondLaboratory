@@ -6,7 +6,7 @@ function differenceNumber(num1, num2) {
     return num1 - num2;
 }
 
-function displayInfo() {
+function OneDisplayInfo() {
     const num1 = document.getElementById("OneNumberInput1").value;
     const num2 = document.getElementById("OneNumberInput2").value;
     const output = document.getElementById("OneOutput");

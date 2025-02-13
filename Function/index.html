@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="1/script.js" ></script>
     <style>
-        #MyButton
+        button
         {
             width: 100px;
             height: 21px;
@@ -14,15 +13,24 @@
     </style>
 </head>
 <body>
-<h1>Первое задание</h1>
-<label for="OneNumberInput1">Введите 2 числа: </label>
-<input type="number" id="OneNumberInput1">
-<input type="number" id="OneNumberInput2">
-<button id="MyButton" onclick="displayInfo()">Нажми!</button>
+    <h2>Первое задание</h2>
+    <label for="OneNumberInput1">Введите 2 числа: </label>
+    <input type="number" id="OneNumberInput1">
+    <input type="number" id="OneNumberInput2">
+    <button onclick="OneDisplayInfo()">Нажми!</button>
 
-<div id="OneOutput"></div>
+    <div id="OneOutput"></div>
 
-<h1>Второе задание</h1>
+    <h2>Второе задание</h2>
+    <label for="TwoNumberInput1">Введите число: </label>
+    <input type="number" id="TwoNumberInput1">
+    <button onclick="TwoDisplayInfo()" >Нажми!</button>
 
+    <dialog id="TwoDialog">
+        <div id="TwoOutput"></div>
+        <button id="TwoCloseDialog">Закрыть!</button>
+    </dialog>
+
+    <script src=script-centralization.js ></script>
 </body>
 </html>
