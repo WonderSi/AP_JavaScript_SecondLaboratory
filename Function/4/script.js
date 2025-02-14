@@ -1,5 +1,6 @@
 let variable = "Глобальная переменнная";
 function f() {
+    let variable = "Локальная переменная";
     console.log(variable);
 }
 f();
