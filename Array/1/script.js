@@ -13,7 +13,7 @@ function OneDisplayInfo() {
     output.innerHTML += `
         <p>Элемент с индексом 2: ${arr[1]}</p>
         <p>Количество элементов массива: ${arr.length}</p>
-    `
+    `;
 
     arr.splice(1,1);
 

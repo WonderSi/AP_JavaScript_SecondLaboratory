@@ -45,6 +45,6 @@ function TwoClear() {
 
 function TwoDisplayInfo() {
     output.innerHTML = ``;
-    output.innerHTML += `Данные(for): <br>${PrintCountriesAndPopulationFor()}<br>`
-    output.innerHTML += `Данные(for...of): <br> ${PrintCountriesAndPopulationForIn()}`
+    output.innerHTML += `Данные(for): <br>${PrintCountriesAndPopulationFor()}<br>`;
+    output.innerHTML += `Данные(for...of): <br> ${PrintCountriesAndPopulationForIn()}`;
 }
