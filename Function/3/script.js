@@ -14,5 +14,5 @@ function ThreeDisplayInfo() {
     const num3 = parseFloat(document.getElementById('ThreeNumberInput3').value);
     const output =document.getElementById('ThreeOutput');
 
-    output.innerHTML = `Наибольшее число: ${greaterOfTheThree(num1, num2, num3)}`
+    output.innerHTML = `Наибольшее число: ${greaterOfTheThree(num1, num2, num3)}`;
 }

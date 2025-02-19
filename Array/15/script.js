@@ -16,5 +16,5 @@ function DisplayBooks(booksByAuthors) {
 }
 
 function FifteenDisplayInfo() {
-    DisplayBooks(booksByAuthors)
+    DisplayBooks(booksByAuthors);
 }

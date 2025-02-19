@@ -16,6 +16,6 @@ function SevenDisplayInfo() {
         return;
     }
 
-    output.innerHTML = `Вывод: ${SequenceMember(num)}`
+    output.innerHTML = `Вывод: ${SequenceMember(num)}`;
 
 }

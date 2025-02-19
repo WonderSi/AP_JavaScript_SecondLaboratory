@@ -6,5 +6,5 @@ function FiveDisplayInfo() {
 
     let result = (Math.max(x,y) + Math.max(x + y,z)) / (Math.pow(Math.max(0.5,x + z), 2));
 
-    output.innerHTML = `<p>Результат формулы: ${result}</p>`
+    output.innerHTML = `<p>Результат формулы: ${result}</p>`;
 }

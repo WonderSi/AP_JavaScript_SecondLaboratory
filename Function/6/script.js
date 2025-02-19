@@ -64,7 +64,7 @@ function SixAddInput() {
         <label>Вершина: ${inputDiv.children.length + 1}</label>
         <input type="number" class="x" placeholder="x">
         <input type="number" class="y" placeholder="y">
-    `
+    `;
     inputDiv.appendChild(newInputs);
 }
 
