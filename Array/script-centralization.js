@@ -1,8 +1,8 @@
-fetch("scripts.json") // Загружаем JSON-файл
-    .then(res => res.json()) // Преобразуем ответ в объект (массив)
-    .then(scripts => scripts.forEach(src => { // Перебираем массив
-        let script = document.createElement("script"); // Создаем тег <script>
-        script.src = src; // Устанавливаем путь к файлу
-        document.head.appendChild(script); // Добавляем <script> в <head>
+fetch("scripts.json")
+    .then(res => res.json())
+    .then(scripts => scripts.forEach(src => {
+        let script = document.createElement("script");
+        script.src = src;
+        document.head.appendChild(script);
     }))
-    .catch(err => console.error("Ошибка загрузки:", err)); // Если ошибка – выводим в консоль
+    .catch(err => console.error("Ошибка загрузки:", err));
